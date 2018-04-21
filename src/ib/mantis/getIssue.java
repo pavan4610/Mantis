@@ -24,6 +24,8 @@ public class getIssue {
 			long id=session.getBiggestIssueId(29);
 			System.out.println(id);
 			System.out.println(session.issueExists(2404));
+			System.out.println(session.issueExists(id));
+
 			//System.out.println(session.getAccessibleProjects());
 			//ProjectAttachmentData data=new ProjectAttachmentData();
 			//System.out.println(session.getBiggestIssueId(33));
